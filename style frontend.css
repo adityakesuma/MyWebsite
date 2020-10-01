@@ -1,0 +1,75 @@
+body {
+   font-family: sans-serif;
+}
+ 
+h2 {
+   color: #00a2c6
+}
+ 
+h3 {
+   color: #00a2c6
+}
+
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #0F750D
+}
+* {
+   box-sizing: border-box;
+}
+ 
+body {
+   font-family: sans-serif;
+}
+ 
+.flex-container-column {
+   display: flex;
+   /* properti pendukung */
+   flex-direction: column;
+   max-width: 700px;
+   margin: 0 auto;
+   text-align: right;
+}
+ 
+.flex-container-row {
+   display: flex;
+}
+ 
+.button {
+   flex-basis: 25%;
+   /* properti pendukung */
+   font-size: 2em;
+   text-align: center;
+   padding: 40px;
+   border: 1px solid black;
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+ 
+.double {
+   flex-basis: 50%;
+}
+.display {
+   color: dark black;
+   width: 100%;
+   padding: 10px 20px;
+   background-color: #0CEBCD;
+   border: 1px solid black;
+   font-size: 3em;
+}
+.operator,
+.negative,
+.equals {
+   background: orange;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(1, 5, 3, 0.2);
+   border-radius: 5px;
+   padding: 30px;
+   margin-top: 20px;
+}
+.button:hover {
+   font-weight: bold;
+}
